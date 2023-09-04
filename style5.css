@@ -1,0 +1,96 @@
+/* Set a yellow background for the entire page */
+
+body {
+    background-color: #ffff00;
+    /* Yellow */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Create a flex container to hold the navigation bars */
+
+.flex-container {
+    display: flex;
+    max-width: 800px;
+    /* Limit the maximum width of the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Add a shadow to the content box */
+}
+
+
+/* Style for the vertical navbar on the extreme left */
+
+.vertical-navbar {
+    background-color: #ffff00;
+    /* Yellow background */
+    text-align: center;
+    padding: 20px 0;
+    /* Adjust padding as needed (added 20px top padding) */
+    position: relative;
+    width: 120px;
+    /* Adjust the width as needed */
+}
+
+.vertical-navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.vertical-navbar li {
+    margin-bottom: 0;
+    /* Remove margin */
+}
+
+.vertical-navbar a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #000000;
+    /* Black text color (default color) */
+    display: block;
+    /* Make the tabs block-level elements */
+    width: 100%;
+    /* Set the width to 100% */
+    padding: 10px 0;
+    /* Adjust padding as needed */
+    border-right: 4px solid #000000;
+    /* Thick black border on the right */
+}
+
+
+/* Hover effect for the vertical navbar tabs */
+
+.vertical-navbar a:hover {
+    background-color: #bb9d07;
+    /* Yellow background on hover */
+    color: #ffffff;
+    /* White text color on hover */
+}
+
+li {
+    background: white;
+    margin: 10px;
+}
+
+.content {
+    flex: 1;
+    /* Take up the remaining space */
+    padding: 20px;
+    height: 100vh;
+    /* Set content height to viewport height */
+    color: purple;
+}
+
+
+/* Footer styling */
+
+.footer {
+    text-align: center;
+    border-top: 2px solid #000;
+    /* Top border */
+    padding: 10px;
+}

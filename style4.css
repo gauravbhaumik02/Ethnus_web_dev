@@ -1,0 +1,95 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Apply a background color to the whole page */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Center the container on the page */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% of the viewport height */
+}
+
+
+/* Style the navigation menu on the left side of the box */
+
+.navigation {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navigation ul {
+    padding: 0;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Define colors for the navigation buttons */
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: #333;
+}
+
+
+/* Style the centered box */
+
+.center-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.center-box h1 {
+    font-size: 24px;
+}
+
+.center-box p {
+    font-size: 16px;
+}
